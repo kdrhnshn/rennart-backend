@@ -8,7 +8,7 @@ app.use(cors());
 
 const products = require('./products.json');
 
-// Altın fiyatı çekme fonksiyonu (örnek olarak goldapi.io kullanılıyor)
+// Altın fiyatı çekme fonksiyonu 
 async function getGoldPrice() {
   try {
     const response = await axios.get('https://api.gold-api.com/price/XAU');
